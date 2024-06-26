@@ -145,8 +145,11 @@ header nav{
 }
 .flower-feature-item h2{
     margin-top: 20px;
+    font-size:24px;
+    color:var(--section-title);
     text-align:center;
     text-decoration:underline;
+    cursor:pointer;
 }
 
 
@@ -184,6 +187,19 @@ header nav{
     .container-right{
         justify-content: center;
     }
+
+    /* Flower feature section */
+    .flower-feature-container{
+        grid-template-columns:repeat(1, 1fr);
+        gap:100px;
+    
+    }
+    #flower {
+        padding: 100px 50px;
+    }
+    .flower-item-image{
+        height:100%;
+    }
 }
 
 /* Medium devices responsive */
@@ -216,6 +232,20 @@ header nav{
     .container-right{
         justify-content: center;
     }
+
+    /* Flower feature section */
+    .flower-feature-container{
+        grid-template-columns:repeat(2, 1fr);
+        gap:100px;
+    
+    }
+    #flower {
+        padding: 100px 50px;
+    }
+    .flower-item-image{
+        height:100%;
+    }
+    
 }
 
 /* Large screen responsive */
@@ -233,5 +263,13 @@ header nav{
     }
     .hero-container img {
         width: 75%;
+    }
+
+    /* Flower feature section */
+    .flower-item-image {
+        height: 100%;
+    }
+    #flower {
+        padding: 100px 120px;
     }
 }
