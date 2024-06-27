@@ -263,6 +263,48 @@ header nav{
     .flower-item-image{
         height:100%;
     }
+
+    /* What we offers section responsive */
+    .what-offers-container{
+        flex-direction:column;
+        padding:40px 20px;
+    }
+    .padding-top-bottom{
+        padding:40px 0px;
+    }
+    .margin-top-bottom{
+        margin:40px 0px;
+    }
+    .offers-items {
+        display: flex;
+    }
+    .offers-items img{
+        margin-right:10px;
+        width:70px;
+        height:70px;
+    }
+    .offers-items h3{
+        font-size: 16px;
+    }
+
+
+
+
+    /* Hot deal section responsive */
+    .hot-deal-container{
+        flex-direction:column-reverse;
+        padding:40px 20px;
+    }
+    .hot-deal-column{
+        width:100%;
+    }
+    .hot-deal-column img {
+        width: 60%;
+        height: auto;
+    }
+    .hot-deal-column h2{
+        font-size:25px;
+    }
 }
 
 /* Medium devices responsive */
@@ -307,6 +349,22 @@ header nav{
     }
     .flower-item-image{
         height:100%;
+    }
+
+    /* What we offer section responsive */
+    .offers-items h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .what-offers-container {
+        gap: 30px;
+        padding: 50px 20px;
+    }
+
+    /* Hot deal section responsive */
+    .hot-deal-column img {
+        width: 80%;
+        height: auto;
     }
     
 }
