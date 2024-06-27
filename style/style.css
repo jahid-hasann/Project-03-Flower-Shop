@@ -12,6 +12,9 @@
     --section-description: #26262699;
 
 }
+.width-full{
+    width:100%;
+}
 .center{
     text-align:center;
 }
@@ -212,9 +215,6 @@ header nav{
     margin:30px 0px;
 
 }
-.hot-deal-column button{
-
-}
 .hot-deal-column img{
     width:320px;
     height:420px;
@@ -236,9 +236,37 @@ header nav{
     border-radius:4px;
 }
 
+/* Newsletter style */
+#newsletter{
+    margin:100px auto;
+}
+.newsletter-container h2{
+    font-size:40px;
+}
+.newsletter-container p{
+    color:var(--section-description);
+    margin-top:15px;
+}
+.newsletter-container {
+    background-image: url(/images/Rectangle\ 9.png);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
 
-
-
+.newsletter-form-wrapper form{
+    text-align:center;
+}
+.newsletter-form-wrapper form input[type="email"]{
+    width:40%;
+    padding:18px;
+    border-radius:3px;
+    font-size:18px;
+    border:none;
+    outline: none;
+    margin-right:10px;
+}
 
 
 /* Footer section style */
