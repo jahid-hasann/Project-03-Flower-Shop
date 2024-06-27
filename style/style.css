@@ -71,7 +71,7 @@ header nav{
 .hero-container h2{
     font-size: 60px;
     font-weight: 900;
-    font-color:var(--section-title);
+    color:var(--section-title);
 }
 .hero-container p{
     font-size:18px;
